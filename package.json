@@ -1,0 +1,35 @@
+{
+  "name": "feather-backend",
+  "version": "0.0.0",
+  "description": "CMS API",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloshallan/feather-backend.git"
+  },
+  "author": "carlos.hallan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloshallan/feather-backend/issues"
+  },
+  "homepage": "https://github.com/carloshallan/feather-backend#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "pg": "^8.0.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
